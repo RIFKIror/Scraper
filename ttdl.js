@@ -99,6 +99,7 @@ export async function tiktokDl(url) {
           type: slides.length ? "photo" : "video",
           download: nowm,
           mp3,
+          slides,
         },
       },
     };
